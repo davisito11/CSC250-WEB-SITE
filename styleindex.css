@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F178385.png&f=1&nofb=1&ipt=ddab758c89c604c9090904ddd82ae7ad7b69d1a3d70de64a138e6c99519a9e96&ipo=images)no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+form {
+  background: trasparent;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.input-box {
+  color: #ffffff;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+input {
+  color: #ffffff;
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  box-sizing: border-box;
+  border: 1px solid #828282;
+  border-radius: 20px;
+  outline: none;
+}
+
+i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #ffffff;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.Login {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 19px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+}
+
